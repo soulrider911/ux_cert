@@ -1,0 +1,227 @@
+{
+"cards": [
+    {
+        "front": "How can you help integrate personas into your design & development process? ",
+        "back" : "Schedule a meeting with your colleagues to introduce personas & collaborate on writing user stories",
+        "icon" : "record_lookup",
+        "iconCol": "record-lookup",
+        "category" : "Discovery",
+        "filterCat": "discovery"
+    },
+    {
+        "front": "When in the discovery phase, what should you think about when shaping your discovery questions?",
+        "back" : "The aim and scope of your study... What you're exloring, and which people you plan to interview",
+        "icon" : "record_lookup",
+        "iconCol": "record-lookup",
+        "category" : "Discovery",
+        "filterCat": "discovery"
+    },
+    {
+        "front": "Which is the best research method to help understand what people do?",
+        "back" : "Behavioral",
+        "icon" : "record_lookup",
+        "iconCol": "record-lookup",
+        "category" : "Discovery",
+        "filterCat": "discovery"
+    },
+    {
+        "front": "Which research method can be used to help understand how people organize their products and services?",
+        "back" : "Card Sorting",
+        "icon" : "record_lookup",
+        "iconCol": "record-lookup",
+        "category" : "Discovery",
+        "filterCat": "discovery"
+    },
+    {
+        "front": "What is an important principle of the Salesforce Personas?",
+        "back" : "They are based on users' goals, behaviors and motivations.",
+        "icon" : "record_lookup",
+        "iconCol": "record-lookup",
+        "category" : "Discovery",
+        "filterCat": "discovery"
+    },
+    {
+        "front": "The visual representation of business processes",
+        "back" : "Process Mapping",
+        "icon" : "record_lookup",
+        "iconCol": "record-lookup",
+        "category" : "Discovery",
+        "filterCat": "discovery"
+    },
+    {
+        "front": "What is the 'Hawthorne Effect'?",
+        "back" : "The alteration of behavior by the subject of a study due to their awareness of being observed",
+        "icon" : "record_lookup",
+        "iconCol": "record-lookup",
+        "category" : "Discovery",
+        "filterCat": "discovery"
+    },
+    {
+        "front": "What are Attitundial Research Methods?",
+        "back" : "Mothods that focus on what people say.",
+        "icon" : "record_lookup",
+        "iconCol": "record-lookup",
+        "category" : "Discovery",
+        "filterCat": "discovery"
+    },
+    {
+        "front": "What are Qualitative Research Methods?",
+        "back" : "Tries to answer 'Why?' or 'How?'",
+        "icon" : "record_lookup",
+        "iconCol": "record-lookup",
+        "category" : "Discovery",
+        "filterCat": "discovery"
+    },
+    {
+        "front": "What are Quantitative Research Methods?",
+        "back" : "Tries to answer 'How much?' or 'How many?'",
+        "icon" : "record_lookup",
+        "iconCol": "record-lookup",
+        "category" : "Discovery",
+        "filterCat": "discovery"
+    },
+    {
+        "front": "Two factors that should be taken into consideration when formulating discovery questions.",
+        "back" : "Aim: the intent of your work - what you are trying to find out.\n\n Scope: Who you're researching and how you're doing your analysis" ,
+        "icon" : "record_lookup",
+        "iconCol": "record-lookup",
+        "category" : "Discovery",
+        "filterCat": "discovery"
+    },
+    {
+        "front": "What is the Contextual inquiry method?",
+        "back" : "Observing a participant in their own environment to better understand how they work" ,
+        "icon" : "record_lookup",
+        "iconCol": "record-lookup",
+        "category" : "Discovery",
+        "filterCat": "discovery"
+    },
+    //   ------------------
+    // UX Fundamentals
+    //   ------------------
+
+    {
+        "front": "Why is it best to keep protoypes low/mid fidelity during the early states of rapid prototyping?",
+        "back" : "Rapid prototyping involves quick feedback & iteration, so high fidelity would be a waste of time" ,
+        "icon" : "connected_apps",
+        "iconCol": "connected-apps",
+        "category" : "UX Fundamentals",
+        "filterCat": "uxfundamentals"
+    },
+    {
+        "front": "What is a key consideration for using color with accessability in mind?",
+        "back" : "Ensure there is enough contrast between adjacent colors" ,
+        "icon" : "connected_apps",
+        "iconCol": "connected-apps",
+        "category" : "UX Fundamentals",
+        "filterCat": "uxfundamentals"
+    },
+    {
+        "front": "What feature does a screen reader user commonly use to navigate a page?",
+        "back" : "Heading Structure of the page" ,
+        "icon" : "connected_apps",
+        "iconCol": "connected-apps",
+        "category" : "UX Fundamentals",
+        "filterCat": "uxfundamentals"
+    },
+    {
+        "front": "Two WCAG restrictions that are crucial to follow when desiging animations for the web?",
+        "back" : "Limited Flashing or blinking. Animations longer than 5 seconds can be stopped or paused.",
+        "icon" : "connected_apps",
+        "iconCol": "connected-apps",
+        "category" : "UX Fundamentals",
+        "filterCat": "uxfundamentals"
+    },
+    {
+        "front": "Meant to cummunicate structure of an app or web page, and focuses on function rather than visual design?",
+        "back" : "A Wireframe.",
+        "icon" : "connected_apps",
+        "iconCol": "connected-apps",
+        "category" : "UX Fundamentals",
+        "filterCat": "uxfundamentals"
+    },
+    {
+        "front": "Preliminary version of a product or idea that lets project stakeholders test user interfaces.",
+        "back" : "A Prototoype.",
+        "icon" : "connected_apps",
+        "iconCol": "connected-apps",
+        "category" : "UX Fundamentals",
+        "filterCat": "uxfundamentals"
+    },
+    {
+        "front": "A difference between two or more elements in a composition",
+        "back" : "Contrast",
+        "icon" : "connected_apps",
+        "iconCol": "connected-apps",
+        "category" : "UX Fundamentals",
+        "filterCat": "uxfundamentals"
+    },
+    {
+        "front": "A visual effect adding the illusion of depth, where a backgroud moves at a different rate than the foreground?",
+        "back" : "Parallax Effect",
+        "icon" : "connected_apps",
+        "iconCol": "connected-apps",
+        "category" : "UX Fundamentals",
+        "filterCat": "uxfundamentals"
+    },
+    {
+        "front": "What is Exposition",
+        "back" : "The background or setting of the story. Introduce the hero and their current state.",
+        "icon" : "connected_apps",
+        "iconCol": "connected-apps",
+        "category" : "UX Fundamentals",
+        "filterCat": "uxfundamentals"
+    },
+    {
+        "front": "Initial feedback is given on a prototype and the need for more is determined, what is next?",
+        "back" : "Develop Interactive Prototypes.",
+        "icon" : "connected_apps",
+        "iconCol": "connected-apps",
+        "category" : "UX Fundamentals",
+        "filterCat": "uxfundamentals"
+    },
+    {
+        "front": "When creating a survey questions like, “Tell us what you like best about this feature,” are known as?",
+        "back" : "Leading Questions",
+        "icon" : "connected_apps",
+        "iconCol": "connected-apps",
+        "category" : "UX Fundamentals",
+        "filterCat": "uxfundamentals"
+    },
+    {
+        "front": "What level of and HTML heading should ONLY exist once on a page? ",
+        "back" : "H1",
+        "icon" : "connected_apps",
+        "iconCol": "connected-apps",
+        "category" : "UX Fundamentals",
+        "filterCat": "uxfundamentals"
+    },
+    {
+        "front": "Icons and images that don't add any relevant information or functionality.",
+        "back" : "Decorative Icons and Images",
+        "icon" : "connected_apps",
+        "iconCol": "connected-apps",
+        "category" : "UX Fundamentals",
+        "filterCat": "uxfundamentals"
+    },
+    {
+        "front": "Icons and images that convey important information that the surrounding text doesn't.",
+        "back" : "Informational Icons and Images",
+        "icon" : "connected_apps",
+        "iconCol": "connected-apps",
+        "category" : "UX Fundamentals",
+        "filterCat": "uxfundamentals"
+    },
+    //   ------------------
+    // HCI
+    //   ------------------
+    {
+        "front": "Icons and images that convey important information that the surrounding text doesn't.",
+        "back" : "Informational Icons and Images",
+        "icon" : "skill_entity",
+        "iconCol": "channel-programs",
+        "category" : "Human-Centered Design",
+        "filterCat": "hci"
+    }
+]
+}

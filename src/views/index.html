@@ -4,44 +4,93 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Salesforce Lightning Design System Starter Kit</title>
+  <title>UX Certification Flash Cards</title>
   <link rel="icon" type="image/png" href="/favicon.png" />
+  
   <meta name="robots" content="noindex, nofollow" />
-
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <!-- Prototype styles -->
   <link rel="stylesheet" href="/styles/index.css" />
 </head>
 <body>
-  <div class="slds-p-around--large slds-container--center slds-container--small landing">
-    <h1 class="slds-text-heading--large">
-      Welcome to the Design System Starter Kit
-    </h1>
-    <p class="slds-text-body--regular slds-m-vertical--large">A rapid prototyping environment using the <a href="https://www.lightningdesignsystem.com">Lightning Design System</a>, brought to you by <a href="https://twitter.com/SalesforceUX">Salesforce UX</a>.</p>
+  <div class="slds-p-around--large slds-container--center slds-container--large landing">
+    <h1 class="slds-text-heading--large slds-m-bottom_small">Welcome to UX Certification Flashcards Experiment!</h1>
+    <span class="slds-text-title_caps">Test Breakdown</span>
+    <ul class="slds-list_horizontal slds-has-dividers_left slds-m-bottom_small">
+      <li class="slds-item">Discovery: 13%</li>
+      <li class="slds-item">UX Fundamentals: 16%</li>
+    </ul>
 
-    <img src="/assets/img-efficiency.svg" alt="" />
+    {% include "_card-controls.html" %}
 
-    <h2 class="slds-text-heading--medium slds-m-top--large">Get Started</h2>
-    <p class="slds-text-body--regular slds-m-top--large">Edit files in the <a href="https://github.com/salesforce-ux/design-system-starter-kit/tree/master/src"><code>src</code> directory</a> to start building your prototype.</p>
-    <p class="slds-text-body--regular slds-m-top--large">Lightning Design System component documentation and markup available at: <a href="https://www.lightningdesignsystem.com">https://www.lightningdesignsystem.com</a>.</p>
-    <hr />
-
-    <h2 class="slds-text-heading--medium slds-m-top--large">Example Prototype with Data</h2>
-    <p class="slds-text-body--regular slds-m-top--large slds-m-bottom--small">We’ve put together a prototype to show you what the starter kit is capable of, have a look!</p>
-    <p class="slds-text-body--regular slds-m-vertical--large">Data shown in this example comes from <a href="https://github.com/salesforce-ux/design-system-starter-kit/blob/master/src/views/data/example.json">views/data/example.json</a>. Check out the <a href="https://github.com/salesforce-ux/design-system-starter-kit/blob/master/src/views/data/README.md">README</a> to learn how we are injecting data with "gulp-nunjucks".</p>
-    <p><a href="/example.html" class="slds-button slds-button--brand">Example Prototype</a></p>
-    <hr />
-
-    <h2 class="slds-text-heading--medium slds-m-top--large">Feedback and Questions</h2>
-    <p class="slds-text-body--regular slds-m-top--large slds-m-bottom--small">Ask questions about prototyping using the design system, report issues about the starter kit… <a href="https://github.com/salesforce-ux/design-system-starter-kit/">on the GitHub repository</a>.</p>
-    <hr />
-
-    <h2 class="slds-text-heading--medium slds-m-top--large">See Also</h2>
-    <p class="slds-text-body--regular slds-m-top--large slds-m-bottom--small">More comfortable designing in <a href="https://www.sketchapp.com/">Sketch</a>? Try the <a href="https://github.com/salesforce-ux/design-system-ui-kit/">Design System UI Kit</a>.</p>
-
-  </div>
-
-  <script src="/scripts/app.js"></script>
+    <section class="flip-cards">
+      {% for card in cards %}
+      <div class="flip-card {{ card.filterCat }}">
+        <article class="slds-card">
+          <div class="card-front">
+            <!-- <div class="slds-card__header slds-grid">
+              <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__figure">
+                  <span class="slds-icon_container   slds-icon-standard-{{ card.iconCol }}" title="{{ card.icon }}">
+                    <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                      <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#{{ card.icon }}"></use>
+                    </svg>
+                    <span class="slds-assistive-text">{{ card.category }} Card</span>
+                  </span>
+                </div>
+                <div class="slds-media__body">
+                  <h2 class="slds-card__header-title">{{ card.category }}</h2>
+                </div>
+              </header>
+            </div> -->
+            <div class="slds-card__body slds-card__body_inner">{{ card.front }}</div>
+            <span class="slds-badge slds-badge_lightest">
+              <span class="slds-badge__icon slds-badge__icon_left">
+                <span class="slds-icon_container slds-icon-utility-moneybag slds-current-color" title="Description of icon when needed">
+                  <svg class="slds-icon slds-icon_xx-small" aria-hidden="true">
+                    <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#{{ card.icon }}"></use>
+                  </svg>
+                </span>
+              </span>{{ card.category }}</span>
+          </div>
+          <div class="card-back">
+            <div class="slds-card__body slds-card__body_inner">{{ card.back }}</div>
+          </div>
+        </article>
+        <button class="slds-button slds-button_icon slds-button_icon-border" aria-pressed="false" title="check answer">
+          <svg class="slds-button__icon" aria-hidden="true">
+            <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+          </svg>
+          <span class="slds-assistive-text">check answer</span>
+        </button>
+      </div>
+      {% endfor %}
+    </section>
+  </body>
   <script src="/scripts/vendor/svg4everybody.min.js"></script>
   <script>svg4everybody();</script>
-</body>
+  <script type="text/javascript">
+    $(function(){
+        var flipCard = $(".flip-card");
+        var trigger = flipCard.find("button");
+        var cardFilter = $("#card-controls input[type=checkbox]")
+        trigger.on("click" , function(){
+          $(this).toggleClass("rotateArr").parent().toggleClass("flipped");
+          $(this).addClass("click");
+          return false;
+        });
+        trigger.on('transitionend', function() {
+          $(this).removeClass('click');
+          $(this).toggleClass("slds-button_icon-border-inverse slds-button_icon-border")
+          $(this).addClass('go_back');
+          return false;
+        });
+        cardFilter.on("click" , function(){
+          var hash = $(this).attr("aria-cat");
+          $("."+hash).toggleClass("slds-hidden");
+          console.log($("."+hash));
+        });
+        
+    });
+  </script>
 </html>
