@@ -12,21 +12,23 @@ $transition-timing: ease;
     perspective: 1200px;
     position: relative;
     display: inline-block;
-    margin: .25rem;
+    margin: .35rem;
     &.slds-hidden{
         display: none;
     }
     // card ribbon colors
     &.discovery .slds-card{
-        border-left: 3px solid #eb7092;
+        border-left-color: #eb7092;
     }
     &.uxfundamentals .slds-card{
-        border-left: 3px solid #9895ee;
+        border-left-color: #9895ee;
     }
     &.hci .slds-card{
-        border-left: 3px solid #0eb58a;
+        border-left-color: #0eb58a;
     }
-
+    &.dd .slds-card{
+        border-left-color: #ef6e64;
+    }
     .slds-card{
         display: inline-block;
         width: 300px;
@@ -34,6 +36,8 @@ $transition-timing: ease;
         text-align: left;
         transition: transform 0.6s $transition-timing;
         transform-style: preserve-3d;
+        border-left-width: 4px;
+        border-left-style: solid;
         .slds-card__body_inner{
             font-size: 1.2rem;
         }

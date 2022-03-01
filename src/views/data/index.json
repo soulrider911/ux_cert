@@ -10,7 +10,7 @@
     },
     {
         "front": "When in the discovery phase, what should you think about when shaping your discovery questions?",
-        "back" : "The aim and scope of your study... What you're exloring, and which people you plan to interview",
+        "back" : "The aim and scope of your study... What you're exploring, and which people you plan to interview",
         "icon" : "record_lookup",
         "iconCol": "record-lookup",
         "category" : "Discovery",
@@ -57,8 +57,8 @@
         "filterCat": "discovery"
     },
     {
-        "front": "What are Attitundial Research Methods?",
-        "back" : "Mothods that focus on what people say.",
+        "front": "What are Attitudinal Research Methods?",
+        "back" : "Methods that focus on what people say.",
         "icon" : "record_lookup",
         "iconCol": "record-lookup",
         "category" : "Discovery",
@@ -96,12 +96,12 @@
         "category" : "Discovery",
         "filterCat": "discovery"
     },
-    //   ------------------
+    
     // UX Fundamentals
-    //   ------------------
+    
 
     {
-        "front": "Why is it best to keep protoypes low/mid fidelity during the early states of rapid prototyping?",
+        "front": "Why is it best to keep prototypes low/mid fidelity during the early states of rapid prototyping?",
         "back" : "Rapid prototyping involves quick feedback & iteration, so high fidelity would be a waste of time" ,
         "icon" : "connected_apps",
         "iconCol": "connected-apps",
@@ -125,7 +125,7 @@
         "filterCat": "uxfundamentals"
     },
     {
-        "front": "Two WCAG restrictions that are crucial to follow when desiging animations for the web?",
+        "front": "Two WCAG restrictions that are crucial to follow when designing animations for the web?",
         "back" : "Limited Flashing or blinking. Animations longer than 5 seconds can be stopped or paused.",
         "icon" : "connected_apps",
         "iconCol": "connected-apps",
@@ -133,7 +133,7 @@
         "filterCat": "uxfundamentals"
     },
     {
-        "front": "Meant to cummunicate structure of an app or web page, and focuses on function rather than visual design?",
+        "front": "Meant to communicate structure of an app or web page, and focuses on function rather than visual design?",
         "back" : "A Wireframe.",
         "icon" : "connected_apps",
         "iconCol": "connected-apps",
@@ -142,7 +142,7 @@
     },
     {
         "front": "Preliminary version of a product or idea that lets project stakeholders test user interfaces.",
-        "back" : "A Prototoype.",
+        "back" : "A Prototype.",
         "icon" : "connected_apps",
         "iconCol": "connected-apps",
         "category" : "UX Fundamentals",
@@ -212,16 +212,257 @@
         "category" : "UX Fundamentals",
         "filterCat": "uxfundamentals"
     },
-    //   ------------------
+    
     // HCI
-    //   ------------------
+    
     {
-        "front": "Icons and images that convey important information that the surrounding text doesn't.",
-        "back" : "Informational Icons and Images",
-        "icon" : "skill_entity",
+        "front": "What is the goal of relationship design?",
+        "back" : "Encouraging social connection, engagement, and values",
+        "icon" : "user",
         "iconCol": "channel-programs",
         "category" : "Human-Centered Design",
         "filterCat": "hci"
+    },
+    {
+        "front": "Inclusively, sustainability, and ethics are criteria for what concept?",
+        "back" : "Relationship Design",
+        "icon" : "user",
+        "iconCol": "channel-programs",
+        "category" : "Human-Centered Design",
+        "filterCat": "hci"
+    },
+    {
+        "front": "Desirability, feasibility, and viability are the focus of what design practice?",
+        "back" : "Human-Centered Design",
+        "icon" : "user",
+        "iconCol": "channel-programs",
+        "category" : "Human-Centered Design",
+        "filterCat": "hci"
+    },
+    {
+        "front": "What is the focus of service design?",
+        "back" : "Creating a consistent brand experience across distinct interactions",
+        "icon" : "user",
+        "iconCol": "channel-programs",
+        "category" : "Human-Centered Design",
+        "filterCat": "hci"
+    },
+    {
+        "front": "Creative approach to solving people's problems beginning with their needs, and ends with solutions to meet those needs.",
+        "back" : "Human-Centered Design.",
+        "icon" : "user",
+        "iconCol": "channel-programs",
+        "category" : "Human-Centered Design",
+        "filterCat": "hci"
+    },
+    {
+        "front": "The creation of consistent user or customer experiences across multiple interactions.",
+        "back" : "Service Design",
+        "icon" : "user",
+        "iconCol": "channel-programs",
+        "category" : "Human-Centered Design",
+        "filterCat": "hci"
+    },
+    {
+        "front": "How easy it is for someone to use a product, & how much someone enjoys interacting with a product. Are concepts of what design practice?",
+        "back" : "UX Design",
+        "icon" : "user",
+        "iconCol": "channel-programs",
+        "category" : "Human-Centered Design",
+        "filterCat": "hci"
+    },
+    {
+        "front": "Builds on both UX design & service design by focusing on more than just an individual person interacting with a product or brand...",
+        "back" : "Relationship Design",
+        "icon" : "user",
+        "iconCol": "channel-programs",
+        "category" : "Human-Centered Design",
+        "filterCat": "hci"
+    },
+    {
+        "front": "When using design to strengthen customer relationships, what should you prioritize?",
+        "back" : "In-depth, design-led research.",
+        "icon" : "user",
+        "iconCol": "channel-programs",
+        "category" : "Human-Centered Design",
+        "filterCat": "hci"
+    },
+    {
+        "front": "What could you create to capture user + customer feedback and suggestions?",
+        "back" : "A Forum",
+        "icon" : "user",
+        "iconCol": "channel-programs",
+        "category" : "Human-Centered Design",
+        "filterCat": "hci"
+    },
+    {
+        "front": "What method could you use to better understand the employee journey and identify ways it can be improved?",
+        "back" : "Journey Mapping",
+        "icon" : "user",
+        "iconCol": "channel-programs",
+        "category" : "Human-Centered Design",
+        "filterCat": "hci"
+    },
+    {
+        "front": "What is a benefit of introducing friction into the design process?",
+        "back" : "To question the potential consequences of design and business choices.",
+        "icon" : "user",
+        "iconCol": "channel-programs",
+        "category" : "Human-Centered Design",
+        "filterCat": "hci"
+    },
+    {
+        "front": "To lead with strengthening connection.",
+        "back" : "COMPASSION mindset.",
+        "icon" : "user",
+        "iconCol": "channel-programs",
+        "category" : "Human-Centered Design",
+        "filterCat": "hci"
+    },
+    {
+        "front": "To push ourselves to be vulnerable.",
+        "back" : "COURAGE mindset.",
+        "icon" : "user",
+        "iconCol": "channel-programs",
+        "category" : "Human-Centered Design",
+        "filterCat": "hci"
+    },
+    {
+        "front": "To engage with clear purpose.",
+        "back" : "INTENTION mindset.",
+        "icon" : "user",
+        "iconCol": "channel-programs",
+        "category" : "Human-Centered Design",
+        "filterCat": "hci"
+    },
+    {
+        "front": "To exchange value in service of longevity.",
+        "back" : "RECIPROCITY mindset.",
+        "icon" : "user",
+        "iconCol": "channel-programs",
+        "category" : "Human-Centered Design",
+        "filterCat": "hci"
+    },
+    // Declarative Design
+    {
+        "front": "A _____ is a declarative component a UX designer can use for on-boarding.",
+        "back" : "Prompt.",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "A component that allows readers to acknowledge information without specifically completing an action.",
+        "back" : "A Floating Prompt.",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "When designing a user engagement, what is the difference between the message and the purpose?",
+        "back" : "The message is what you say to the user, the purpose is Why you say it.",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "To display all the products an account has purchased on a record page, what standard salesforce configuration should be considered?",
+        "back" : "Create an Account to Product lookup relationship, then add a related list of products to the account record page.",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "A component that provides getting started resources the first time that users log in to Lightning Experience?",
+        "back" : "Welcome Mat programmatic component",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "Use a _______ to point to a lower-level component on the page to provide tips and best practices.",
+        "back" : "Popover programmatic component",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "Centralized list of tasks designed to help users onboard organizations, clouds, or features.",
+        "back" : "Setup Assistant programmatic component.",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "When users may not notice or seek out help, but would benefit from assistance is an example of what method?",
+        "back" : "Push Method.",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "When the user is motivated to seek help is an example of what method?",
+        "back" : "Pull Method.",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "Floating and docked are examples of what type of component?",
+        "back" : "Salesforce Prompts.",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "Show users where to begin and what's new or changed - the 'aha moment' is what engagement scenario?",
+        "back" : "Onboarding.",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "Raising awareness of a new feature is an example of what scenario?",
+        "back" : "Feature Discovery & adoption.",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "_________ provides just-in-time prompts that help users learn by doing.",
+        "back" : "Troubleshooting help",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "_________ gives users the skills and information they need to get as much value as possible out of your product or application.",
+        "back" : "Deeper learning",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "_________ gives users the skills and information they need to get as much value as possible out of your product or application.",
+        "back" : "Deeper learning",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
     }
 ]
 }
