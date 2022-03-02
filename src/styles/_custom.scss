@@ -106,17 +106,21 @@ $transition-timing: ease;
 }
 
 // sticky Header
+body > header{
+    transition: all .5s ease;
+}
 body.sticky-header{
     >header{
         position: fixed;
         width: 100%;
         top: -14px;
         z-index: 1000;
-        h1{
+        box-shadow: 0 2px 4px rgba(0,0,0,.2);
+        h1, h2{
             display: none;
         }
     }
     > .slds-container--center{
-        margin-top: 145px;
+        margin-top: 175px;
     }
 }
