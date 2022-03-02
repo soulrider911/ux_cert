@@ -463,6 +463,94 @@
         "iconCol": "data-streams",
         "category" : "Declarative Design",
         "filterCat": "dd"
+    },
+    {
+        "front": "Field-level Help is better suited for Troubleshooting OR Deeper Learning",
+        "back" : "Troubleshooting",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "________ allows designers to observe and record how users complete assigned tasks.",
+        "back" : "Usability Testing",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    {
+        "front": "What two tools should a UX designer use to test that a webpage can be navigated without a mouse?",
+        "back" : "Keyboard & Screen Reader.",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    {
+        "front": "When testing for keyboard accessability, do nonmodal dialogues need to be verified?",
+        "back" : "No, nonmodal dialogues can not be navigated with a keyboard .",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    {
+        "front": "When testing for keyboard accessability, does keyboard focus need to be visible?",
+        "back" : "Yes, use the keyboard to ensure focusable elements have a visual indicator.",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    {
+        "front": "When testing for keyboard accessability, all ________ must be able to receive focus",
+        "back" : "Actionable Items",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    {
+        "front": "For development, user acceptance testing & training, without compromising data in production. What Salesforce feature should you use?",
+        "back" : "Create a Full sandbox Org",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    {
+        "front": "Why is testing alt-text with a screen reader important?",
+        "back" : "So you can find out whether your alt text was actually helpful",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    {
+        "front": "_______ is a way of evaluating site structure by asking users to find items based on the site's organization & terminology",
+        "back" : "Tree Testing",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    {
+        "front": "This type of test compares only one difference, A vs B",
+        "back" : "Single Variant Test",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    {
+        "front": "This type of test compares more than one difference, A vs B vs C",
+        "back" : "Multi-variant Test",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
     }
 ]
 }

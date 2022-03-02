@@ -3,6 +3,7 @@ $transition-timing: ease;
 #card-controls{
     .slds-form-element__control{
         display: inline-block;
+        margin-bottom: .2rem;
     }
 }
 .flip-cards{
@@ -29,12 +30,15 @@ $transition-timing: ease;
     &.dd .slds-card{
         border-left-color: #ef6e64;
     }
+    &.dt .slds-card{
+        border-left-color: #0079bc;
+    }
     .slds-card{
         display: inline-block;
         width: 300px;
         height: 200px;
         text-align: left;
-        transition: transform 0.6s $transition-timing;
+        transition: all 0.6s $transition-timing;
         transform-style: preserve-3d;
         border-left-width: 4px;
         border-left-style: solid;

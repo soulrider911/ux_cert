@@ -14,15 +14,8 @@
 </head>
 <body>
   <div class="slds-p-around--large slds-container--center slds-container--large landing">
-    <h1 class="slds-text-heading--large slds-m-bottom_small">Welcome to UX Certification Flashcards Experiment!</h1>
-    <span class="slds-text-title_caps">Test Breakdown</span>
-    <ul class="slds-list_horizontal slds-has-dividers_left slds-m-bottom_small">
-      <li class="slds-item">Discovery: 13%</li>
-      <li class="slds-item">UX Fundamentals: 16%</li>
-      <li class="slds-item">Human Centered Design: 12%</li>
-      <li class="slds-item">Declarative Design: 27%</li>
-    </ul>
-
+    <h1 class="slds-text-heading--large slds-m-bottom_small">Welcome to UX Certification Flashcards Experiment!</h1> 
+    
     {% include "_card-controls.html" %}
 
     <section class="flip-cards">
@@ -72,9 +65,11 @@
           $(this).addClass('go_back');
           return false;
         });
+
         cardFilter.on("click" , function(){
           var hash = $(this).attr("aria-cat");
-          $("."+hash).toggleClass("slds-hidden");
+          //$("."+hash).toggleClass("slds-hidden");
+          $("."+hash).slideToggle(200);
           console.log($("."+hash));
         });
         
