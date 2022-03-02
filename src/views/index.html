@@ -13,11 +13,14 @@
   <link rel="stylesheet" href="/styles/index.css" />
 </head>
 <body>
-  <div class="slds-p-around--large slds-container--center slds-container--large landing">
-    <h1 class="slds-text-heading--large slds-m-bottom_small">Welcome to UX Certification Flashcards Experiment!</h1> 
-    
-    {% include "_card-controls.html" %}
-
+  <header class="slds-border_bottom landing">
+    <div class="slds-p-around--medium slds-container--large slds-container--center ">
+      <h1 class="slds-text-heading--large slds-m-bottom_small">Welcome to UX Certification Flashcards Experiment!</h1> 
+      
+      {% include "_card-controls.html" %}
+    </div>
+  </header>
+  <div class="slds-p-around--medium slds-container--center slds-container--large landing">
     <section class="flip-cards">
       {% for card in cards %}
       <div class="flip-card {{ card.filterCat }}">
@@ -72,6 +75,15 @@
           $("."+hash).slideToggle(200);
           console.log($("."+hash));
         });
+
+        $(window).scroll(function(){
+          var winTop = $(window).scrollTop();
+          if(winTop >= 60){
+            $("body").addClass("sticky-header");
+          }else{
+            $("body").removeClass("sticky-header");
+          }//if-else
+        });//win func.
         
     });
   </script>

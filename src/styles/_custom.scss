@@ -104,3 +104,19 @@ $transition-timing: ease;
         transform: rotateY(180deg);
     }
 }
+
+// sticky Header
+body.sticky-header{
+    >header{
+        position: fixed;
+        width: 100%;
+        top: -14px;
+        z-index: 1000;
+        h1{
+            display: none;
+        }
+    }
+    > .slds-container--center{
+        margin-top: 145px;
+    }
+}
