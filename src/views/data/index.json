@@ -10,7 +10,7 @@
     },
     {
         "front": "When in the discovery phase, what should you think about when shaping your discovery questions?",
-        "back" : "The aim and scope of your study... What you're exploring, and which people you plan to interview",
+        "back" : "The aim and scope",
         "icon" : "record_lookup",
         "iconCol": "record-lookup",
         "category" : "Discovery",
@@ -33,8 +33,8 @@
         "filterCat": "discovery"
     },
     {
-        "front": "What is an important principle of the Salesforce Personas?",
-        "back" : "They are based on users' goals, behaviors and motivations.",
+        "front": "Salesforce _________ are based on users' goals, behaviors and motivations.",
+        "back" : "Personas",
         "icon" : "record_lookup",
         "iconCol": "record-lookup",
         "category" : "Discovery",
@@ -103,7 +103,7 @@
     {
         "front": "Why is it best to keep prototypes low/mid fidelity during the early states of rapid prototyping?",
         "back" : "Rapid prototyping involves quick feedback & iteration, so high fidelity would be a waste of time" ,
-        "icon" : "connected_apps",
+        "icon" : "macros",
         "iconCol": "connected-apps",
         "category" : "UX Fundamentals",
         "filterCat": "uxfundamentals"
@@ -111,7 +111,7 @@
     {
         "front": "What is a key consideration for using color with accessability in mind?",
         "back" : "Ensure there is enough contrast between adjacent colors" ,
-        "icon" : "connected_apps",
+        "icon" : "macros",
         "iconCol": "connected-apps",
         "category" : "UX Fundamentals",
         "filterCat": "uxfundamentals"
@@ -119,7 +119,7 @@
     {
         "front": "What feature does a screen reader user commonly use to navigate a page?",
         "back" : "Heading Structure of the page" ,
-        "icon" : "connected_apps",
+        "icon" : "macros",
         "iconCol": "connected-apps",
         "category" : "UX Fundamentals",
         "filterCat": "uxfundamentals"
@@ -127,7 +127,7 @@
     {
         "front": "Two WCAG restrictions that are crucial to follow when designing animations for the web?",
         "back" : "Limited Flashing or blinking. Animations longer than 5 seconds can be stopped or paused.",
-        "icon" : "connected_apps",
+        "icon" : "macros",
         "iconCol": "connected-apps",
         "category" : "UX Fundamentals",
         "filterCat": "uxfundamentals"
@@ -135,7 +135,7 @@
     {
         "front": "Meant to communicate structure of an app or web page, and focuses on function rather than visual design?",
         "back" : "A Wireframe.",
-        "icon" : "connected_apps",
+        "icon" : "macros",
         "iconCol": "connected-apps",
         "category" : "UX Fundamentals",
         "filterCat": "uxfundamentals"
@@ -143,7 +143,7 @@
     {
         "front": "Preliminary version of a product or idea that lets project stakeholders test user interfaces.",
         "back" : "A Prototype.",
-        "icon" : "connected_apps",
+        "icon" : "macros",
         "iconCol": "connected-apps",
         "category" : "UX Fundamentals",
         "filterCat": "uxfundamentals"
@@ -151,7 +151,7 @@
     {
         "front": "A difference between two or more elements in a composition",
         "back" : "Contrast",
-        "icon" : "connected_apps",
+        "icon" : "macros",
         "iconCol": "connected-apps",
         "category" : "UX Fundamentals",
         "filterCat": "uxfundamentals"
@@ -159,7 +159,7 @@
     {
         "front": "A visual effect adding the illusion of depth, where a backgroud moves at a different rate than the foreground?",
         "back" : "Parallax Effect",
-        "icon" : "connected_apps",
+        "icon" : "macros",
         "iconCol": "connected-apps",
         "category" : "UX Fundamentals",
         "filterCat": "uxfundamentals"
@@ -167,7 +167,7 @@
     {
         "front": "What is Exposition",
         "back" : "The background or setting of the story. Introduce the hero and their current state.",
-        "icon" : "connected_apps",
+        "icon" : "macros",
         "iconCol": "connected-apps",
         "category" : "UX Fundamentals",
         "filterCat": "uxfundamentals"
@@ -175,7 +175,7 @@
     {
         "front": "Initial feedback is given on a prototype and the need for more is determined, what is next?",
         "back" : "Develop Interactive Prototypes.",
-        "icon" : "connected_apps",
+        "icon" : "macros",
         "iconCol": "connected-apps",
         "category" : "UX Fundamentals",
         "filterCat": "uxfundamentals"
@@ -183,7 +183,7 @@
     {
         "front": "When creating a survey questions like, “Tell us what you like best about this feature,” are known as?",
         "back" : "Leading Questions",
-        "icon" : "connected_apps",
+        "icon" : "macros",
         "iconCol": "connected-apps",
         "category" : "UX Fundamentals",
         "filterCat": "uxfundamentals"
@@ -191,7 +191,7 @@
     {
         "front": "What level of and HTML heading should ONLY exist once on a page? ",
         "back" : "H1",
-        "icon" : "connected_apps",
+        "icon" : "macros",
         "iconCol": "connected-apps",
         "category" : "UX Fundamentals",
         "filterCat": "uxfundamentals"
@@ -199,15 +199,15 @@
     {
         "front": "Icons and images that don't add any relevant information or functionality.",
         "back" : "Decorative Icons and Images",
-        "icon" : "connected_apps",
+        "icon" : "macros",
         "iconCol": "connected-apps",
         "category" : "UX Fundamentals",
         "filterCat": "uxfundamentals"
     },
     {
         "front": "Icons and images that convey important information that the surrounding text doesn't.",
-        "back" : "Informational Icons and Images",
-        "icon" : "connected_apps",
+        "back" : "Informational",
+        "icon" : "macros",
         "iconCol": "connected-apps",
         "category" : "UX Fundamentals",
         "filterCat": "uxfundamentals"
@@ -216,15 +216,7 @@
     // HCI
     
     {
-        "front": "What is the goal of relationship design?",
-        "back" : "Encouraging social connection, engagement, and values",
-        "icon" : "user",
-        "iconCol": "channel-programs",
-        "category" : "Human-Centered Design",
-        "filterCat": "hci"
-    },
-    {
-        "front": "Inclusively, sustainability, and ethics are criteria for what concept?",
+        "front": "Encouraging social connection, engagement, and values is the goal of what?",
         "back" : "Relationship Design",
         "icon" : "user",
         "iconCol": "channel-programs",
@@ -240,8 +232,16 @@
         "filterCat": "hci"
     },
     {
-        "front": "What is the focus of service design?",
-        "back" : "Creating a consistent brand experience across distinct interactions",
+        "front": "Creating a consistent brand experience across distinct interactions is the focus of ____________?",
+        "back" : "Service Design",
+        "icon" : "user",
+        "iconCol": "channel-programs",
+        "category" : "Human-Centered Design",
+        "filterCat": "hci"
+    },
+    {
+        "front": "Inclusively, sustainability, and ethics are criteria for what?",
+        "back" : "Relationship Design",
         "icon" : "user",
         "iconCol": "channel-programs",
         "category" : "Human-Centered Design",
@@ -551,6 +551,111 @@
         "iconCol": "code-set",
         "category" : "Design Testing",
         "filterCat": "dt"
+    },
+    {
+        "front": "What are some of the issues an Aura accessibility test look for?",
+        "back" : "Images without alt attributes | Input elements without Labels | Headings (H1, H2, ..) | Fieldset elements without legend tags",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    {
+        "front": "_______ testing gives the user a task and records whether the first place the user clicks is the correct path to accomplish the task",
+        "back" : "First Click Testing",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    {
+        "front": "_______ is a way to model database tables that in a way that makes sense to humans.",
+        "back" : "A data model",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    {
+        "front": "________ are objects that are included with Salesforce. Account is an example of this.",
+        "back" : "Standard Objects",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    {
+        "front": "Objects that you create to store information that's specific to your company or industry are what?",
+        "back" : "Custom Objects",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    {
+        "front": "Where in setup would you go to create a custom field for an object?",
+        "back" : "Object Manager",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    {
+        "front": "All records need this field so you can distinguish between them.",
+        "back" : "Name Field",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    {
+        "front": "This special field can hold values that automatically calculated based on some expression that you write.",
+        "back" : "Formula Field",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    {
+        "front": "A 15-character, case-sensitive field that's automatically generated for every record.",
+        "back" : "Identity Field",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    // Lightning Design System
+    {
+        "front": "What aspect of systems design allows you to build for multiple uses, viewpoints & structures?",
+        "back" : "Scalability",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "In systems design, the most important relationship is the one between what two entities?",
+        "back" : "Individual elements + Overall experience",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "Creating a record is an example of what type of design pattern?",
+        "back" : "A Macropattern",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "A customer used lightning components, and wants a global change to their button color. What feature could then use?",
+        "back" : "Styling Hooks",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
     }
 ]
 }

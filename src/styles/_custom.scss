@@ -10,6 +10,8 @@ $transition-timing: ease;
     text-align: center;
 }
 .flip-card{
+    -moz-transform: perspective(1200px);
+    -webkit-perspective: 1200px;
     perspective: 1200px;
     position: relative;
     display: inline-block;
@@ -31,7 +33,10 @@ $transition-timing: ease;
         border-left-color: #ef6e64;
     }
     &.dt .slds-card{
-        border-left-color: #0079bc;
+        border-left-color: #67a5e7;
+    }
+    &.slds .slds-card{
+        border-left-color: #00396b;
     }
     .slds-card{
         display: inline-block;
@@ -42,6 +47,7 @@ $transition-timing: ease;
         transform-style: preserve-3d;
         border-left-width: 4px;
         border-left-style: solid;
+        background: none;
         .slds-card__body_inner{
             font-size: 1.2rem;
         }
@@ -50,6 +56,8 @@ $transition-timing: ease;
             position: absolute;
             width: 100%;
             height: 100%;
+            -webkit-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;
             backface-visibility: hidden;
         }
         .card-front{
@@ -69,7 +77,6 @@ $transition-timing: ease;
     }
     button{
         position: absolute;
-        z-index: 1000;
         bottom: 25px;
         right: 25px;
         width: 2rem;
@@ -123,4 +130,32 @@ body.sticky-header{
     > .slds-container--center{
         margin-top: 175px;
     }
+}
+
+// phone styles
+
+@media (max-width:480px){
+    body>div.slds-p-around--medium{
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    body.sticky-header{
+        >header{
+            position: static;
+            h1, h2{
+                display: block;
+            }
+        }
+        > .slds-container--center{
+            margin-top: 0;
+        }
+    }
+    .flip-card{
+        margin-left: 0;
+        margin-right: 0;
+        .slds-card{  
+            width: 360px;
+            height: 180px;
+        }
+    } 
 }

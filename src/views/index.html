@@ -4,8 +4,11 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>UX Certification Flash Cards</title>
+  <title>UX Cert Flash Cards</title>
   <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
   
   <meta name="robots" content="noindex, nofollow" />
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
@@ -32,7 +35,7 @@
             <div class="slds-card__body slds-card__body_inner">{{ card.front }}</div>
             <span class="slds-badge slds-badge_lightest">
               <span class="slds-badge__icon slds-badge__icon_left">
-                <span class="slds-icon_container slds-icon-utility-moneybag slds-current-color" title="Description of icon when needed">
+                <span class="slds-icon_container slds-current-color" title="Description of icon when needed">
                   <svg class="slds-icon slds-icon_xx-small" aria-hidden="true">
                     <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#{{ card.icon }}"></use>
                   </svg>
@@ -78,7 +81,9 @@
           $("."+hash).slideToggle(200);
           console.log($("."+hash));
         });
-
+        $("#flip-all").on("click" , function(){
+          trigger.click();
+        });
         $(window).scroll(function(){
           var winTop = $(window).scrollTop();
           if(winTop >= 90){
