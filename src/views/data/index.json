@@ -682,7 +682,7 @@
         "filterCat": "slds"
     },
     {
-        "front": "An ________ ia part of an element that people recognize and associate with the actions they can take.",
+        "front": "An ________ is part of an element that people recognize and associate with the actions they can take.",
         "back" : "Affordance",
         "icon" : "connected_apps",
         "iconCol": "agent-home",
@@ -698,7 +698,7 @@
         "filterCat": "slds"
     },
     {
-        "front": "Logging in is an example example of what type of pattern?",
+        "front": "Logging in is an example example of what type of interaction pattern?",
         "back" : "A Macrointeraction",
         "icon" : "connected_apps",
         "iconCol": "agent-home",
@@ -770,7 +770,7 @@
         "filterCat": "slds"
     },
     {
-        "front": "WHat are the visual design atoms of the design system called?",
+        "front": "What are the visual design atoms of the design system called?",
         "back" : "Design token",
         "icon" : "connected_apps",
         "iconCol": "agent-home",
