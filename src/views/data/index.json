@@ -792,6 +792,14 @@
         "iconCol": "agent-home",
         "category" : "Lightning Design System",
         "filterCat": "slds"
+    },
+    {
+        "front": "What are the 4 design principles of the Lightning Design System?",
+        "back" : "Clarity, Consistency, Efficiency, Beauty",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
     }
 ]
 }
