@@ -658,7 +658,7 @@
         "filterCat": "slds"
     },
     {
-        "front": "A customer used lightning components, and wants a global change to their button color. What feature could then use?",
+        "front": "A customer used lightning components, and wants a global change to their button color. What feature could they use?",
         "back" : "Styling Hooks",
         "icon" : "connected_apps",
         "iconCol": "agent-home",
