@@ -167,9 +167,9 @@ body.sticky-header{
 // Phone Styles
 // --------------------
 @media (max-width:768px){
-    .slds-panel{
-        top: 95px;
-    }
+    // .slds-panel{
+    //     top: 95px;
+    // }
 }
 @media (max-width:480px){
     body>div.slds-p-around--medium{
@@ -183,7 +183,7 @@ body.sticky-header{
         }
     }
     .slds-panel{
-        top: 75px;
+        top: 85px;
     }
     .flip-card{
         margin-left: 0;
