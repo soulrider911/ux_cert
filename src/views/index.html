@@ -7,25 +7,33 @@
   <title>UX Cert Flash Cards</title>
   <link rel="icon" type="image/png" href="/favicon.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
-  
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
   <meta name="robots" content="noindex, nofollow" />
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <!-- Prototype styles -->
   <link rel="stylesheet" href="/styles/index.css" />
 </head>
 <body>
-  <header class="slds-border_bottom landing">
-    <div class="slds-p-around--medium slds-container--large slds-container--center ">
-      <h1 class="slds-text-heading--large slds-m-bottom_x-small"><img src="/favicon-32.png" alt="Ux Certification Ribbon"> Welcome to UX Certification Flashcards Experiment!</h1> 
-      <h2 class="slds-text-heading--small slds-m-bottom_x-small">Made with lots of &#128151; &#9749; &nbsp;by <a href="https://www.linkedin.com/in/brady-sammons-627b3127/" target="_blank">Brady Sammons</a>. I hope this helps you nail your <a href="https://trailhead.salesforce.com/en/credentials/userexperiencedesigner">UX Certification</a>! 
-      </h2>
-      
-      {% include "_card-controls.html" %}
-    </div>
+  <header class="page-header landing slds-p-around_small">
+    <div class="slds-container--large slds-container--center slds-grid">  
+      <h1 class="slds-text-heading--large slds-col slds-medium-size_10-of-12 slds-size_8-of-12">Salesforce UX Certification Flashcards</h1>
+      <div class="slds-col slds-col_bump-left slds-medium-size_2-of-12 slds-size_4-of-12 slds-text-align_right">
+        <button id="filter-button" class="slds-button slds-button_neutral slds-button_dual-stateful " aria-live="assertive" aria-pressed="false">
+          <span class="slds-text-not-pressed">
+            <svg class="slds-button__icon slds-button__icon_small slds-button__icon_left" aria-hidden="true">
+              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#filterList"></use>
+            </svg>Filters</span>
+          <span class="slds-text-pressed">
+            <svg class="slds-button__icon slds-button__icon_small slds-button__icon_left" aria-hidden="true">
+              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#check"></use>
+            </svg>Filters</span>
+        </button>
+      </div>
+    </div> 
   </header>
-  <div class="slds-p-around--medium slds-container--center slds-container--large landing">
+  {% include "_card-controls.html" %}
+  <div class="slds-p-around--medium slds-container--center slds-container--large landing"> 
     <section class="flip-cards">
       {% for card in cards %}
       <div class="flip-card {{ card.filterCat }}">
@@ -59,39 +67,69 @@
   <script>svg4everybody();</script>
   <script type="text/javascript">
     $(function(){
-        var flipCard = $(".flip-card");
-        var trigger = flipCard.find("button");
-        var cardFilter = $("#card-controls input[type=checkbox]")
-        trigger.on("click" , function(){
-          $(this).toggleClass("rotateArr").parent().toggleClass("flipped");
-          $(this).addClass("click");
-          return false;
-        });
-        trigger.on('transitionend', function() {
-          $(this).removeClass('click');
-          $(this).toggleClass("slds-button_icon-border-inverse slds-button_icon-border")
-          $(this).addClass('go_back');
-          return false;
-        });
-
-        cardFilter.on("click" , function(){
-          var hash = $(this).attr("aria-cat");
-          //$("."+hash).toggleClass("slds-hidden");
-          $("."+hash).slideToggle(200);
-          console.log($("."+hash));
-        });
-        $("#flip-all").on("click" , function(){
-          trigger.click();
-        });
-        $(window).scroll(function(){
-          var winTop = $(window).scrollTop();
-          if(winTop >= 90){
-            $("body").addClass("sticky-header");
-          }else{
-            $("body").removeClass("sticky-header");
-          }//if-else
-        });//win func.
+      var flipCard = $(".flip-card");
+      var trigger = flipCard.find("button");
+      var cardFilter = $("#card-controls input[type=checkbox]");
+      var panel = $('.slds-panel');
         
+      // For Card flip action, and associated class swaps
+      trigger.on("click" , function(){
+        $(this).toggleClass("rotateArr").parent().toggleClass("flipped");
+        $(this).addClass("click");
+        return false;
+      });
+
+      // For Card flip transitions after the transition finishes
+      trigger.on('transitionend', function(e) {
+        $(this).removeClass('click');
+        $(this).toggleClass("slds-button_icon-border-inverse slds-button_icon-border")
+        $(this).addClass('go_back');
+        return false;
+        e.preventDefault();
+      });
+
+      //For card filter checkboxes
+      cardFilter.on("click" , function(){
+        var hash = $(this).attr("aria-cat");
+        //$("."+hash).toggleClass("slds-hidden");
+        $("."+hash).slideToggle(200);
+        console.log($("."+hash));
+      });
+      
+      // Flip cards stateful button
+      $("#flip-all").on("click" , function(){
+        trigger.click();
+        $(this).toggleClass("slds-is-pressed");
+        if( $(this).attr("aria-pressed") == "false" ){
+          $(this).attr("aria-pressed" , "true");
+        }else{
+          $(this).attr("aria-pressed" , "false");  
+        }
+      });
+
+      $("#filter-button").on("click" , function(e){
+        $(this).toggleClass("slds-is-pressed");
+        if(panel.hasClass("show")){
+          panel.removeClass("show");
+          setTimeout(function(){
+            panel.removeClass('slds-is-open')
+          },150)
+        }else{
+          panel.addClass("slds-is-open");
+          setTimeout(function(){
+            panel.addClass('show')
+          },1)
+        }
+        e.preventDefault();
+      });
+      
+      $(".slds-panel__close").on("click" , function(){
+        panel.removeClass("show");
+          setTimeout(function(){
+            panel.removeClass('slds-is-open')
+          },150)
+        $("#filter-button").removeClass("slds-is-pressed");
+      });
     });
   </script>
 </html>

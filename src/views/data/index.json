@@ -197,8 +197,8 @@
         "filterCat": "uxfundamentals"
     },
     {
-        "front": "Icons and images that don't add any relevant information or functionality.",
-        "back" : "Decorative Icons and Images",
+        "front": "__________ icons and images that don't add any relevant information or functionality.",
+        "back" : "Decorative",
         "icon" : "macros",
         "iconCol": "connected-apps",
         "category" : "UX Fundamentals",
@@ -723,7 +723,7 @@
     },
     {
         "front": "Why do designers need to be thoughtful about even tiny design decisions?",
-        "back" : "To avoid a time drain on users collectively.",
+        "back" : "To avoid a time drain on users.",
         "icon" : "connected_apps",
         "iconCol": "agent-home",
         "category" : "Lightning Design System",
@@ -796,6 +796,30 @@
     {
         "front": "What are the 4 design principles of the Lightning Design System?",
         "back" : "Clarity, Consistency, Efficiency, Beauty",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "When using a line chart to represent data, whats the max recommended data sets (lines)",
+        "back" : "Four or fewer.",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "True or false, a dot plot chart is great for very large, or dense data sets?",
+        "back" : "False, smaller sparser data sets are best.",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "A pie chart should be use to represent how many values?",
+        "back" : "Between 2 and 5",
         "icon" : "connected_apps",
         "iconCol": "agent-home",
         "category" : "Lightning Design System",

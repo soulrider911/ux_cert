@@ -1,59 +1,90 @@
-<div id="card-controls">
-    <fieldset class="slds-form-element">
-      <legend class="slds-form-element__legend slds-form-element__label slds-float_none">Flashcard Filters <button id="flip-all"class="slds-button">Flip all Cards</button></legend>
-        <div class="slds-form-element__control">
-            <div class="slds-checkbox">
-                <input type="checkbox" name="options" aria-cat="discovery" id="checkbox-discovery" value="checkbox-discovery" checked="" />
-                <label class="slds-checkbox__label" for="checkbox-discovery">
-                    <span class="slds-checkbox_faux"></span>
-                    <span class="slds-form-element__label"><span class="slds-icon_container slds-icon-standard-record-lookup"><svg class="slds-icon slds-icon_x-small" aria-hidden="true"><use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#record_lookup"></use></svg></span> Discovery 13%</span>
-                </label>
-            </div>
+<div class="slds-panel slds-size_medium slds-panel_docked slds-panel_docked-right" aria-hidden="false">
+    <div class="slds-panel__header">
+      <h2 class="slds-panel__header-title slds-text-heading_small slds-truncate" title="Panel Header">Filters</h2>
+      <div class="slds-panel__header-actions">
+        <button class="slds-button slds-button_icon slds-button_icon-small slds-panel__close" title="Collapse Panel Header">
+          <svg class="slds-button__icon" aria-hidden="true">
+            <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+          </svg>
+          <span class="slds-assistive-text">Collapse Panel Header</span>
+        </button>
+      </div>
+    </div>
+    <div class="slds-panel__body">
+        <div id="card-controls">
+            <fieldset class="slds-form-element">
+              <legend class="slds-form-element__legend slds-form-element__label slds-float_none">Show:</legend>
+                <div class="slds-form-element__control">
+                    <div class="slds-checkbox">
+                        <input type="checkbox" name="options" aria-cat="discovery" id="checkbox-discovery" value="checkbox-discovery" checked="" />
+                        <label class="slds-checkbox__label" for="checkbox-discovery">
+                            <span class="slds-checkbox_faux"></span>
+                            <span class="slds-form-element__label"><span class="slds-icon_container slds-icon-standard-record-lookup"><svg class="slds-icon slds-icon_x-small" aria-hidden="true"><use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#record_lookup"></use></svg></span> Discovery 13%</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="slds-form-element__control">
+                    <div class="slds-checkbox">
+                        <input type="checkbox" name="options" aria-cat="uxfundamentals" id="checkbox-uxfundamentals" value="checkbox-uxfundamentals" checked="" />
+                        <label class="slds-checkbox__label" for="checkbox-uxfundamentals">
+                            <span class="slds-checkbox_faux"></span>
+                            <span class="slds-form-element__label"><span class="slds-icon_container slds-icon-standard-connected-apps"><svg class="slds-icon slds-icon_x-small" aria-hidden="true"><use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#macros"></use></svg></span> Ux Fundamentals 16%</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="slds-form-element__control">
+                    <div class="slds-checkbox">
+                        <input type="checkbox" name="options" aria-cat="hci" id="checkbox-hci" value="checkbox-hci" checked="" />
+                        <label class="slds-checkbox__label" for="checkbox-hci">
+                            <span class="slds-checkbox_faux"></span>
+                            <span class="slds-form-element__label"><span class="slds-icon_container slds-icon-standard-channel-programs"><svg class="slds-icon slds-icon_x-small" aria-hidden="true"><use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#user"></use></svg></span> Human-Centered Design 12%</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="slds-form-element__control">
+                    <div class="slds-checkbox">
+                        <input type="checkbox" name="options" aria-cat="dd" id="checkbox-dd" value="checkbox-dd" checked="" />
+                        <label class="slds-checkbox__label" for="checkbox-dd">
+                            <span class="slds-checkbox_faux"></span>
+                            <span class="slds-form-element__label"><span class="slds-icon_container slds-icon-standard-dashboard"><svg class="slds-icon slds-icon_x-small" aria-hidden="true"><use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#task"></use></svg></span> Declarative Design 27%</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="slds-form-element__control">
+                    <div class="slds-checkbox">
+                        <input type="checkbox" name="options" aria-cat="dt" id="checkbox-dt" value="checkbox-dt" checked="" />
+                        <label class="slds-checkbox__label" for="checkbox-dt">
+                            <span class="slds-checkbox_faux"></span>
+                            <span class="slds-form-element__label"><span class="slds-icon_container slds-icon-custom-custom46"><svg class="slds-icon slds-icon_x-small" aria-hidden="true"><use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#stage_collection"></use></svg></span> Design Testing Skills: 11%</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="slds-form-element__control">
+                    <div class="slds-checkbox">
+                        <input type="checkbox" name="options" aria-cat="slds" id="checkbox-slds" value="checkbox-slds" checked="" />
+                        <label class="slds-checkbox__label" for="checkbox-slds">
+                            <span class="slds-checkbox_faux"></span>
+                            <span class="slds-form-element__label"><span class="slds-icon_container slds-icon-standard-agent-home"><svg class="slds-icon slds-icon_x-small" aria-hidden="true"><use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#connected_apps"></use></svg></span> Lightning Design System: 21%</span>
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
         </div>
-        <div class="slds-form-element__control">
-            <div class="slds-checkbox">
-                <input type="checkbox" name="options" aria-cat="uxfundamentals" id="checkbox-uxfundamentals" value="checkbox-uxfundamentals" checked="" />
-                <label class="slds-checkbox__label" for="checkbox-uxfundamentals">
-                    <span class="slds-checkbox_faux"></span>
-                    <span class="slds-form-element__label"><span class="slds-icon_container slds-icon-standard-connected-apps"><svg class="slds-icon slds-icon_x-small" aria-hidden="true"><use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#macros"></use></svg></span> Ux Fundamentals 16%</span>
-                </label>
-            </div>
-        </div>
-        <div class="slds-form-element__control">
-            <div class="slds-checkbox">
-                <input type="checkbox" name="options" aria-cat="hci" id="checkbox-hci" value="checkbox-hci" checked="" />
-                <label class="slds-checkbox__label" for="checkbox-hci">
-                    <span class="slds-checkbox_faux"></span>
-                    <span class="slds-form-element__label"><span class="slds-icon_container slds-icon-standard-channel-programs"><svg class="slds-icon slds-icon_x-small" aria-hidden="true"><use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#user"></use></svg></span> Human-Centered Design 12%</span>
-                </label>
-            </div>
-        </div>
-        <div class="slds-form-element__control">
-            <div class="slds-checkbox">
-                <input type="checkbox" name="options" aria-cat="dd" id="checkbox-dd" value="checkbox-dd" checked="" />
-                <label class="slds-checkbox__label" for="checkbox-dd">
-                    <span class="slds-checkbox_faux"></span>
-                    <span class="slds-form-element__label"><span class="slds-icon_container slds-icon-standard-dashboard"><svg class="slds-icon slds-icon_x-small" aria-hidden="true"><use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#task"></use></svg></span> Declarative Design 27%</span>
-                </label>
-            </div>
-        </div>
-        <div class="slds-form-element__control">
-            <div class="slds-checkbox">
-                <input type="checkbox" name="options" aria-cat="dt" id="checkbox-dt" value="checkbox-dt" checked="" />
-                <label class="slds-checkbox__label" for="checkbox-dt">
-                    <span class="slds-checkbox_faux"></span>
-                    <span class="slds-form-element__label"><span class="slds-icon_container slds-icon-custom-custom46"><svg class="slds-icon slds-icon_x-small" aria-hidden="true"><use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#stage_collection"></use></svg></span> Design Testing Skills: 11%</span>
-                </label>
-            </div>
-        </div>
-        <div class="slds-form-element__control">
-            <div class="slds-checkbox">
-                <input type="checkbox" name="options" aria-cat="slds" id="checkbox-slds" value="checkbox-slds" checked="" />
-                <label class="slds-checkbox__label" for="checkbox-slds">
-                    <span class="slds-checkbox_faux"></span>
-                    <span class="slds-form-element__label"><span class="slds-icon_container slds-icon-standard-agent-home"><svg class="slds-icon slds-icon_x-small" aria-hidden="true"><use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#connected_apps"></use></svg></span> Lightning Design System: 21%</span>
-                </label>
-            </div>
-        </div>
-    </fieldset>
+        <br>
+        <button id="flip-all" class="slds-button slds-button_neutral slds-button_dual-stateful" aria-live="assertive" aria-pressed="false">
+            <span class="slds-text-not-pressed">
+              <svg class="slds-button__icon slds-button__icon_small slds-button__icon_left" aria-hidden="true">
+                <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#rotate"></use>
+              </svg>Flip all cards</span>
+            <span class="slds-text-pressed">
+              <svg class="slds-button__icon slds-button__icon_small slds-button__icon_left" aria-hidden="true">
+                <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#check"></use>
+              </svg>Flip All Cards</span>
+          </button>
+          <footer class="slds-p-top_small slds-m-top_small slds-border_top">
+            <p class="slds-text-heading--small">Made with lots of &#128151; &nbsp;+&nbsp; &#9749; &nbsp;by <a href="https://www.linkedin.com/in/brady-sammons-627b3127/" target="_blank">Brady Sammons</a>. I hope this helps you nail your <a href="https://trailhead.salesforce.com/en/credentials/userexperiencedesigner">UX Certification.</a></p>
+            <br>
+            <p class="slds-text-body_regular slds-text-heading--small">&#128073; &nbsp;To submit a bug, typo, or request a new flashcard please visit the <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeS2-SyQoJxEM1-oSAOCCsGNdfmDX3ugDBKw_UC3sDiMTLiw/viewform?usp=sf_link" target="_blank">google form. </a> </p>
+          </footer>
+    </div>
   </div>
