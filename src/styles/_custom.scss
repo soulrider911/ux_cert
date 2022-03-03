@@ -12,6 +12,10 @@ header.page-header{
     border-bottom: 1px solid $color-border;
     background-color: $palette-blue-20;
     color: white;
+    img{
+        max-width: 50px;
+        vertical-align: top;
+    }
 }
 body{
     margin-top:59px;
