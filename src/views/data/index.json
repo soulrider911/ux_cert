@@ -656,6 +656,142 @@
         "iconCol": "agent-home",
         "category" : "Lightning Design System",
         "filterCat": "slds"
+    },
+    {
+        "front": "What does SLDS stand for?",
+        "back" : "Salesforce Lightning Design System",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "What is a good analogy for systems design?",
+        "back" : "Building a house",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "Who first coined 'User Experience?'",
+        "back" : "Don Norman",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "An ________ ia part of an element that people recognize and associate with the actions they can take.",
+        "back" : "Affordance",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "What is a repeatable design solution to a recurring problem?",
+        "back" : "A Design Pattern",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "Logging in is an example example of what type of pattern?",
+        "back" : "A Macrointeraction",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "________ are the controls within a page that you click, tap, or take some other action on",
+        "back" : "Microinteractions",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "An aerial view of a whole city is a analogy of what type of pattern?",
+        "back" : "A Macrointeraction",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "Why do designers need to be thoughtful about even tiny design decisions?",
+        "back" : "To avoid a time drain on users collectively.",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "What is an example of a design speck that might presented to an engineer ",
+        "back" : "Size, color, typography, interactions, margins, padding.",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "_________ provide the values inputted when a person uses the element you are designing",
+        "back" : "Interaction specifications",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "What are the 6 default interaction states?",
+        "back" : "Default, Disabled, Active, Hover, Focus, Pressed",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "The SC 1.4.1 guideline in WCAG 2.0 tells us to make sure _______ are never indicated by color alone",
+        "back" : "State Changes",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "One of the best ways to document a design is by including what?",
+        "back" : "Do's and Don'ts",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "WHat are the visual design atoms of the design system called?",
+        "back" : "Design token",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "_________ is a way of writing and structuring code to describe its content's structural meaning, not how it visually presents the content.",
+        "back" : "Semantic Markup",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    }
+    {
+        "front": "The process of running a program that will analyse code for potential errors",
+        "back" : "Linting",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
     }
 ]
 }
