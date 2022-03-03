@@ -784,7 +784,7 @@
         "iconCol": "agent-home",
         "category" : "Lightning Design System",
         "filterCat": "slds"
-    }
+    },
     {
         "front": "The process of running a program that will analyse code for potential errors",
         "back" : "Linting",
