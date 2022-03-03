@@ -17,6 +17,14 @@
         "filterCat": "discovery"
     },
     {
+        "front": "What research method is good for observing how participants respond questions in a group setting?",
+        "back" : "Focus groups",
+        "icon" : "record_lookup",
+        "iconCol": "record-lookup",
+        "category" : "Discovery",
+        "filterCat": "discovery"
+    },
+    {
         "front": "Which is the best research method to help understand what people do?",
         "back" : "Behavioral",
         "icon" : "record_lookup",
@@ -25,7 +33,7 @@
         "filterCat": "discovery"
     },
     {
-        "front": "Which research method can be used to help understand how people organize their products and services?",
+        "front": "Which research method is good for grouping things into categories, for example, items in a navigation menu",
         "back" : "Card Sorting",
         "icon" : "record_lookup",
         "iconCol": "record-lookup",
@@ -82,15 +90,15 @@
     },
     {
         "front": "Two factors that should be taken into consideration when formulating discovery questions.",
-        "back" : "Aim: the intent of your work - what you are trying to find out.\n\n Scope: Who you're researching and how you're doing your analysis" ,
+        "back" : "Aim: the intent of your work - what you are trying to find out. Scope: Who you're researching and how you're doing your analysis" ,
         "icon" : "record_lookup",
         "iconCol": "record-lookup",
         "category" : "Discovery",
         "filterCat": "discovery"
     },
     {
-        "front": "What is the Contextual inquiry method?",
-        "back" : "Observing a participant in their own environment to better understand how they work" ,
+        "front": "Observing a participant in their own environment to better understand how they work is an example of what research method?",
+        "back" : "Contextual inquiry" ,
         "icon" : "record_lookup",
         "iconCol": "record-lookup",
         "category" : "Discovery",
