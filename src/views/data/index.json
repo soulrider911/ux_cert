@@ -165,7 +165,7 @@
         "filterCat": "uxfundamentals"
     },
     {
-        "front": "A visual effect adding the illusion of depth, where a backgroud moves at a different rate than the foreground?",
+        "front": "A visual effect adding the illusion of depth, where a background moves at a different rate than the foreground?",
         "back" : "Parallax Effect",
         "icon" : "macros",
         "iconCol": "connected-apps",
@@ -173,8 +173,8 @@
         "filterCat": "uxfundamentals"
     },
     {
-        "front": "What is Exposition",
-        "back" : "The background or setting of the story. Introduce the hero and their current state.",
+        "front": "In storytelling the background or setting of a story, where an introduction the hero and their current state is presented is known as what?",
+        "back" : "Exposition",
         "icon" : "macros",
         "iconCol": "connected-apps",
         "category" : "UX Fundamentals",
@@ -189,7 +189,7 @@
         "filterCat": "uxfundamentals"
     },
     {
-        "front": "When creating a survey questions like, “Tell us what you like best about this feature,” are known as?",
+        "front": "Survey questions like “tell us what you like best about this feature,” are known as what?",
         "back" : "Leading Questions",
         "icon" : "macros",
         "iconCol": "connected-apps",
@@ -197,7 +197,7 @@
         "filterCat": "uxfundamentals"
     },
     {
-        "front": "What level of and HTML heading should ONLY exist once on a page? ",
+        "front": "What level of HTML headings should ONLY exist once on a page? ",
         "back" : "H1",
         "icon" : "macros",
         "iconCol": "connected-apps",

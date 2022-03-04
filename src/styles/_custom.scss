@@ -3,6 +3,9 @@ $transition-timing: ease;
 // --------------------
 // General
 // --------------------
+body{
+    margin-top:59px;
+}
 
 header.page-header{
     position: fixed;
@@ -17,9 +20,7 @@ header.page-header{
         vertical-align: top;
     }
 }
-body{
-    margin-top:59px;
-}
+
 // --------------------
 // Panel
 // --------------------
@@ -33,6 +34,12 @@ body{
     top: 60px;
     &.show{
         transform: translateX(0);
+    }
+    fieldset > div{
+        line-height: 1.6;
+        .slds-checkbox .slds-checkbox__label .slds-form-element__label{
+            font-size: .85rem;
+        }
     }
 }
 
@@ -140,29 +147,6 @@ body{
         transform: rotateY(180deg);
     }
 }
-
-// sticky Header
-body > header{
-    transition: all .5s ease;
-}
-body.sticky-header{
-    >header{
-        position: fixed;
-        width: 100%;
-        top: -14px;
-        z-index: 1000;
-        box-shadow: 0 2px 4px rgba(0,0,0,.2);
-        h1, h2{
-            display: none;
-        }
-    }
-    > .slds-container--center{
-        margin-top: 175px;
-    }
-}
-
-
-
 // --------------------
 // Phone Styles
 // --------------------
@@ -172,6 +156,9 @@ body.sticky-header{
     // }
 }
 @media (max-width:480px){
+    body{
+        margin-top:75px;
+    }
     body>div.slds-p-around--medium{
         padding-left: .5rem;
         padding-right: .5rem;
