@@ -65,8 +65,8 @@
         "filterCat": "discovery"
     },
     {
-        "front": "What are Attitudinal Research Methods?",
-        "back" : "Methods that focus on what people say.",
+        "front": "Research method that focus on what people say, is know as what?",
+        "back" : "Attitudinal Method",
         "icon" : "record_lookup",
         "iconCol": "record-lookup",
         "category" : "Discovery",

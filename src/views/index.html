@@ -11,6 +11,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
   <meta name="robots" content="noindex, nofollow" />
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="http://labs.rampinteractive.co.uk/touchSwipe/jquery.touchSwipe.js"></script>
   <!-- Prototype styles -->
   <link rel="stylesheet" href="/styles/index.css" />
 </head>
@@ -65,85 +66,5 @@
   </body>
   <script src="/scripts/vendor/svg4everybody.min.js"></script>
   <script>svg4everybody();</script>
-  <script type="text/javascript">
-    $(function(){
-      var flipCard = $(".flip-card");
-      var trigger = flipCard.find("button");
-      var cardFilter = $("#card-controls input[type=checkbox]");
-      var panel = $('.slds-panel');
-      var count = $("#count > span");
-      
-      
-      count.text(flipCard.length);
-      // For Card flip action, and associated class swaps
-      trigger.on("click" , function(){
-        $(this).toggleClass("rotateArr").parent().toggleClass("flipped");
-        $(this).addClass("click");
-        return false;
-      });
-
-      // For Card flip transitions after the transition finishes
-      trigger.on('transitionend', function(e) {
-        $(this).removeClass('click');
-        $(this).toggleClass("slds-button_icon-border-inverse slds-button_icon-border")
-        $(this).addClass('go_back');
-        return false;
-        e.preventDefault();
-      });
-
-      //For card filter checkboxes
-      cardFilter.on("click" , function(){
-        var hash = $(this).attr("aria-cat");
-        //$("."+hash).toggleClass("slds-hidden");
-        $("."+hash).slideToggle(200);
-        console.log($("."+hash));
-      });
-      
-      // Flip ALL cards stateful button
-      $("#flip-all").on("click" , function(){
-        trigger.click();
-        $(this).toggleClass("slds-is-pressed");
-        // For aria attr swap
-        if( $(this).attr("aria-pressed") == "false" ){
-          $(this).attr("aria-pressed" , "true");
-        }else{
-          $(this).attr("aria-pressed" , "false");  
-        }
-      });
-
-      // Filters menu toggle, which opens panel
-      $("#filter-button").on("click" , function(e){
-        // For aria attr swap
-        $(this).toggleClass("slds-is-pressed");
-        if( $(this).attr("aria-pressed") == "false" ){
-          $(this).attr("aria-pressed" , "true");
-        }else{
-          $(this).attr("aria-pressed" , "false");  
-        }
-        if(panel.hasClass("show")){
-          panel.removeClass("show");
-          setTimeout(function(){
-            panel.removeClass('slds-is-open')
-          },150)
-        }else{
-          panel.addClass("slds-is-open");
-          setTimeout(function(){
-            panel.addClass('show')
-          },1)
-        }
-        e.preventDefault();
-      });
-      
-      // Close panel "X" Button
-      $(".slds-panel__close").on("click" , function(){
-        panel.removeClass("show");
-          setTimeout(function(){
-            panel.removeClass('slds-is-open')
-          },150)
-        $("#filter-button").removeClass("slds-is-pressed");
-      });
-
-
-    });
-  </script>
+  <script src="/scripts/cards.js"></script>
 </html>
