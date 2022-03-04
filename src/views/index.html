@@ -71,7 +71,10 @@
       var trigger = flipCard.find("button");
       var cardFilter = $("#card-controls input[type=checkbox]");
       var panel = $('.slds-panel');
-        
+      var count = $("#count > span");
+      
+      
+      count.text(flipCard.length);
       // For Card flip action, and associated class swaps
       trigger.on("click" , function(){
         $(this).toggleClass("rotateArr").parent().toggleClass("flipped");
@@ -96,10 +99,11 @@
         console.log($("."+hash));
       });
       
-      // Flip cards stateful button
+      // Flip ALL cards stateful button
       $("#flip-all").on("click" , function(){
         trigger.click();
         $(this).toggleClass("slds-is-pressed");
+        // For aria attr swap
         if( $(this).attr("aria-pressed") == "false" ){
           $(this).attr("aria-pressed" , "true");
         }else{
@@ -107,8 +111,15 @@
         }
       });
 
+      // Filters menu toggle, which opens panel
       $("#filter-button").on("click" , function(e){
+        // For aria attr swap
         $(this).toggleClass("slds-is-pressed");
+        if( $(this).attr("aria-pressed") == "false" ){
+          $(this).attr("aria-pressed" , "true");
+        }else{
+          $(this).attr("aria-pressed" , "false");  
+        }
         if(panel.hasClass("show")){
           panel.removeClass("show");
           setTimeout(function(){
@@ -123,6 +134,7 @@
         e.preventDefault();
       });
       
+      // Close panel "X" Button
       $(".slds-panel__close").on("click" , function(){
         panel.removeClass("show");
           setTimeout(function(){
@@ -130,6 +142,8 @@
           },150)
         $("#filter-button").removeClass("slds-is-pressed");
       });
+
+
     });
   </script>
 </html>
