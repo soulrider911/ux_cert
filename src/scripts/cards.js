@@ -84,17 +84,4 @@ $(function(){
       closePanel();
       $("#filter-button").removeClass("slds-is-pressed");
     });
-
-    //swipe controls
-    $("body").swipe({
-      swipeLeft:function(){
-        openPanel();
-      }, threshold: 0
-    });
-    $("body").swipe({
-      swipeRight:function(){
-        closePanel();
-        panelFilter.removeClass("slds-is-pressed");
-      }, threshold: 0
-    });
   });
