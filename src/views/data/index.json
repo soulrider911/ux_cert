@@ -465,8 +465,8 @@
         "filterCat": "dd"
     },
     {
-        "front": "_________ gives users the skills and information they need to get as much value as possible out of your product or application.",
-        "back" : "Deeper learning",
+        "front": "What option gives users quick access to common productivity tools in a fixed footer.",
+        "back" : "Utility Bar",
         "icon" : "task",
         "iconCol": "data-streams",
         "category" : "Declarative Design",
@@ -475,6 +475,47 @@
     {
         "front": "Field-level Help is better suited for Troubleshooting OR Deeper Learning",
         "back" : "Troubleshooting",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "The _______ provides a few key resources that your users can access from anywhere",
+        "back" : "Help Menu",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    
+    {
+        "front": "What brings the power of learning directly into the app, enabling companies to skill up teams as they work in Salesforce.",
+        "back" : "Salesforce Learning Paths",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "You can place a floating prompt in one of ____ positions on a page",
+        "back" : "9",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "What does M.A.P stand for?",
+        "back" : "MESSAGE (what), AUDIENCE(who), PURPOSE (why)",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "What does the FACE principle, for effective content stand for?",
+        "back" : "Friendly, Accurate, Concise, Educational",
         "icon" : "task",
         "iconCol": "data-streams",
         "category" : "Declarative Design",
