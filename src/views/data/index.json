@@ -708,7 +708,7 @@
     },
     {
         "front": "Creating a record is an example of what type of design pattern?",
-        "back" : "A Macropattern",
+        "back" : "A Macrointeraction",
         "icon" : "connected_apps",
         "iconCol": "agent-home",
         "category" : "Lightning Design System",
