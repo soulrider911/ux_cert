@@ -89,8 +89,16 @@
         "filterCat": "discovery"
     },
     {
-        "front": "Two factors that should be taken into consideration when formulating discovery questions.",
-        "back" : "Aim: the intent of your work - what you are trying to find out. Scope: Who you're researching and how you're doing your analysis" ,
+        "front": "When formulating discovery questions, the ___ is the intent of your work - what you are trying to find out.",
+        "back" : "Aim" ,
+        "icon" : "record_lookup",
+        "iconCol": "record-lookup",
+        "category" : "Discovery",
+        "filterCat": "discovery"
+    },
+    {
+        "front": "When formulating discovery questions, the ___ is who you're researching and how you're doing your analysis.",
+        "back" : "Scope" ,
         "icon" : "record_lookup",
         "iconCol": "record-lookup",
         "category" : "Discovery",
