@@ -361,6 +361,14 @@
         "filterCat": "dd"
     },
     {
+        "front": "What is a key topic covered in the declarative design section of the exam?.",
+        "back" : "Global Elements.",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
         "front": "A component that allows readers to acknowledge information without specifically completing an action.",
         "back" : "A Floating Prompt.",
         "icon" : "task",
