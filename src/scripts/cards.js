@@ -33,6 +33,15 @@ $(function(){
       },1)
     }
 
+    $.fn.randomize = function(selector){
+      (selector ? this.find(selector) : this).parent().each(function(){
+          $(this).children(selector).sort(function(){
+              return Math.random() - 0.5;
+          }).detach().appendTo(this);
+      });
+      return this;
+    };
+
     // Count how many cards there are
     count.text(flipCard.length);
 
@@ -83,5 +92,8 @@ $(function(){
     $(".slds-panel__close").on("click" , function(){
       closePanel();
       $("#filter-button").removeClass("slds-is-pressed");
+    });
+    $('#randomize').on("click" , function(){
+      flipCard.randomize();
     });
   });

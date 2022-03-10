@@ -81,16 +81,24 @@
                 </div>
             </fieldset>
         </div>
-        <button id="flip-all" class="slds-button slds-button_neutral slds-button_dual-stateful slds-m-top_x-small" aria-live="assertive" aria-pressed="false">
-            <span class="slds-text-not-pressed">
-              <svg class="slds-button__icon slds-button__icon_small slds-button__icon_left" aria-hidden="true">
-                <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#rotate"></use>
-              </svg>Flip all cards</span>
-            <span class="slds-text-pressed">
-              <svg class="slds-button__icon slds-button__icon_small slds-button__icon_left" aria-hidden="true">
-                <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#check"></use>
-              </svg>Flip All Cards</span>
-          </button>
+        <!-- card shuffling controls -->
+        <div class="slds-grid slds-m-top_x-small">
+            <button id="flip-all" class="slds-button slds-button_neutral slds-button_dual-stateful" aria-live="assertive" aria-pressed="false">
+                <span class="slds-text-not-pressed">
+                <svg class="slds-button__icon slds-button__icon_small slds-button__icon_left" aria-hidden="true">
+                    <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#rotate"></use>
+                </svg>Flip all</span>
+                <span class="slds-text-pressed">
+                <svg class="slds-button__icon slds-button__icon_small slds-button__icon_left" aria-hidden="true">
+                    <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#check"></use>
+                </svg>Flip All</span>
+            </button>
+            <button id="randomize" class="slds-button slds-button_neutral">
+                <svg class="slds-button__icon slds-button__icon_left" aria-hidden="true">
+                  <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#all"></use>
+                </svg>Randomize</button>
+            
+        </div>
           <footer class="slds-p-top_small slds-m-top_small slds-border_top">
             <p class="slds-text-heading--small">Made with lots of &#128151; &nbsp;+&nbsp; &#9749; &nbsp;by <a href="https://www.linkedin.com/in/brady-sammons-627b3127/" target="_blank">Brady Sammons</a>. I hope this helps you nail your <a href="https://trailhead.salesforce.com/en/credentials/userexperiencedesigner">UX Certification.</a></p>
             <br>
