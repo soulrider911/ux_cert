@@ -133,6 +133,14 @@
         "filterCat": "uxfundamentals"
     },
     {
+        "front": "A simple depiction of the four to eight key steps within a process to illustrate the importance of customer needs and process outputs being the same",
+        "back" : "SIPOC : High level process map" ,
+        "icon" : "macros",
+        "iconCol": "connected-apps",
+        "category" : "UX Fundamentals",
+        "filterCat": "uxfundamentals"
+    },
+    {
         "front": "What feature does a screen reader user commonly use to navigate a page?",
         "back" : "Heading Structure of the page" ,
         "icon" : "macros",
@@ -256,6 +264,14 @@
         "filterCat": "hci"
     },
     {
+        "front": "____ is a process, with defined roles, meetings, and deliverables that provides the framework to deliver high-quality value to our customers faster",
+        "back" : "Scrum",
+        "icon" : "user",
+        "iconCol": "channel-programs",
+        "category" : "Human-Centered Design",
+        "filterCat": "hci"
+    },
+    {
         "front": "Inclusivity, sustainability, and ethics are criteria for what?",
         "back" : "Relationship Design",
         "icon" : "user",
@@ -371,6 +387,14 @@
     {
         "front": "What is a key topic covered in the declarative design section of the exam?.",
         "back" : "Global Elements.",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "How many (max) dynamic dashboards are supported in Org editions?",
+        "back" : "Performance + Unlimited Edition: 10. Enterprise Edition: 5. Developer Edition: 3",
         "icon" : "task",
         "iconCol": "data-streams",
         "category" : "Declarative Design",
@@ -564,6 +588,14 @@
     {
         "front": "When testing for keyboard accessability, does keyboard focus need to be visible?",
         "back" : "Yes, use the keyboard to ensure focusable elements have a visual indicator.",
+        "icon" : "stage_collection",
+        "iconCol": "code-set",
+        "category" : "Design Testing",
+        "filterCat": "dt"
+    },
+    {
+        "front": "__________ is a process where experts use rules of thumb to measure the usability of user interfaces in independent walkthroughs and report issues",
+        "back" : "Heuristic Evaluation",
         "icon" : "stage_collection",
         "iconCol": "code-set",
         "category" : "Design Testing",
