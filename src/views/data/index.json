@@ -105,6 +105,14 @@
         "filterCat": "discovery"
     },
     {
+        "front": "When you pause and think about any unintended consequences that your solution may bring, this is called...",
+        "back" : "A Consequence Scan" ,
+        "icon" : "record_lookup",
+        "iconCol": "record-lookup",
+        "category" : "Discovery",
+        "filterCat": "discovery"
+    },
+    {
         "front": "Observing a participant in their own environment to better understand how they work is an example of what research method?",
         "back" : "Contextual inquiry" ,
         "icon" : "record_lookup",
@@ -915,8 +923,32 @@
         "filterCat": "slds"
     },
     {
+        "front": "When considering how a button related to the rest of a design system, what should you keep in mind?",
+        "back" : "Hierarchy",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "Do CSS styles from a parent leak to a child in relation to the Shadow DOM? ",
+        "back" : "No they do not",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
         "front": "A pie chart should be use to represent how many values?",
         "back" : "Between 2 and 5",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "SLDS is....",
+        "back" : "Flexible, Scalable, Efficient, Accessible, Platform Agnostic",
         "icon" : "connected_apps",
         "iconCol": "agent-home",
         "category" : "Lightning Design System",
