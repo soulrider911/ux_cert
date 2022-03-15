@@ -401,6 +401,14 @@
         "filterCat": "dd"
     },
     {
+        "front": "A feature that replaces a blank section with instuctions on next steps.",
+        "back" : "Empty State feature.",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
         "front": "How many (max) dynamic dashboards are supported in Org editions?",
         "back" : "Performance + Unlimited Edition: 10. Enterprise Edition: 5. Developer Edition: 3",
         "icon" : "task",
