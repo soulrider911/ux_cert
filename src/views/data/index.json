@@ -409,6 +409,54 @@
         "filterCat": "dd"
     },
     {
+        "front": "What can a sales path include?",
+        "back" : "Key Fields, Best practices, words of encouragement, links to chatter, policy reminders, and gotchas",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "Why is adoption important?",
+        "back" : "Adoption leads to strong ROI and positions your reps and your company for success",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "What are the four phases of the user engagement journey?",
+        "back" : "Onboarding, Feature adoption & discovery, Help & Troubleshooting, Deeper Learning",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "A user will NOT be able to customize the navigation bar if it contains more than ___ items",
+        "back" : "50",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "____ helps your service center route any type of incoming work item—including cases, chats, or leads—to your most qualified, available agents",
+        "back" : "Omni-Channel",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    }, 
+    {
+        "front": "What can you put in the Lighting app navigation bar?",
+        "back" : "Standard objects (Home, the main Chatter feed, Groups, People), custom objects, Visualforce tabs, Lightning component tabs, Canvas apps via Visualforce tabs, Web tabs",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
         "front": "How many (max) dynamic dashboards are supported in Org editions?",
         "back" : "Performance + Unlimited Edition: 10. Enterprise Edition: 5. Developer Edition: 3",
         "icon" : "task",
