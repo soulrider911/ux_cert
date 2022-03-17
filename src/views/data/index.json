@@ -441,7 +441,7 @@
         "filterCat": "dd"
     },
     {
-        "front": "____ helps your service center route any type of incoming work item—including cases, chats, or leads—to your most qualified, available agents",
+        "front": "___________ helps your service center route any type of incoming work item(s) to your most qualified, available agents",
         "back" : "Omni-Channel",
         "icon" : "task",
         "iconCol": "data-streams",
@@ -449,8 +449,48 @@
         "filterCat": "dd"
     }, 
     {
-        "front": "What can you put in the Lighting app navigation bar?",
+        "front": "What can you put in a Lightning app & the app navigation bar?",
         "back" : "Standard objects (Home, the main Chatter feed, Groups, People), custom objects, Visualforce tabs, Lightning component tabs, Canvas apps via Visualforce tabs, Web tabs",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "What do compact layouts do?",
+        "back" : "Control which fields users see in the highlights panel at the top of a record.",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "In the Lightning Experience what tool allows users to customize a page's contents, such as fields and buttons that appear on the page?",
+        "back" : "Page layout editor.",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "In the Lightning Experience What tool allows users to customize a page's layout?",
+        "back" : "Lightning App Builder.",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "A _____ can link to an external URL, such as www.google.com, a Visualforce page, or your company's intranet.",
+        "back" : "Custom Link.",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
+        "front": "A _____ can connect users to external applications, such as web pages, and launch custom links.",
+        "back" : "Custom Button.",
         "icon" : "task",
         "iconCol": "data-streams",
         "category" : "Declarative Design",
