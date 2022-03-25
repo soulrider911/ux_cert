@@ -409,6 +409,14 @@
         "filterCat": "dd"
     },
     {
+        "front": "How could a sales team minimize the number of list views in their org?",
+        "back" : "Permissions & Share via public groups. Audit & Remove old public list views",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
         "front": "What can a sales path include?",
         "back" : "Key Fields, Best practices, words of encouragement, links to chatter, policy reminders, and gotchas",
         "icon" : "task",
