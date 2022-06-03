@@ -120,10 +120,6 @@
         "category" : "Discovery",
         "filterCat": "discovery"
     },
-    
-    // UX Fundamentals
-    
-
     {
         "front": "Why is it best to keep prototypes low/mid fidelity during the early states of rapid prototyping?",
         "back" : "Rapid prototyping involves quick feedback & iteration, so high fidelity would be a waste of time" ,
@@ -243,10 +239,7 @@
         "iconCol": "connected-apps",
         "category" : "UX Fundamentals",
         "filterCat": "uxfundamentals"
-    },
-    
-    // HCI
-    
+    },    
     {
         "front": "Encouraging social connection, engagement, and values is the goal of what?",
         "back" : "Relationship Design",
@@ -383,7 +376,6 @@
         "category" : "Human-Centered Design",
         "filterCat": "hci"
     },
-    // Declarative Design
     {
         "front": "A _____ is a declarative component a UX designer can use for on-boarding.",
         "back" : "Prompt.",
@@ -684,14 +676,6 @@
     {
         "front": "What two tools should a UX designer use to test that a webpage can be navigated without a mouse?",
         "back" : "Keyboard & Screen Reader.",
-        "icon" : "stage_collection",
-        "iconCol": "code-set",
-        "category" : "Design Testing",
-        "filterCat": "dt"
-    },
-    {
-        "front": "When testing for keyboard accessability, do nonmodal dialogues need to be verified?",
-        "back" : "No, nonmodal dialogues can not be navigated with a keyboard .",
         "icon" : "stage_collection",
         "iconCol": "code-set",
         "category" : "Design Testing",
@@ -1045,6 +1029,14 @@
     {
         "front": "A pie chart should be use to represent how many values?",
         "back" : "Between 2 and 5",
+        "icon" : "connected_apps",
+        "iconCol": "agent-home",
+        "category" : "Lightning Design System",
+        "filterCat": "slds"
+    },
+    {
+        "front": "What are two types of dialogues in the Lightning Design System?",
+        "back" : "Modal and non-modal dialogues",
         "icon" : "connected_apps",
         "iconCol": "agent-home",
         "category" : "Lightning Design System",
