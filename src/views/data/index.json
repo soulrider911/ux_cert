@@ -385,6 +385,14 @@
         "filterCat": "dd"
     },
     {
+        "front": "You want a layout that displays records driven from a parent record, what relationship should be used?",
+        "back" : "Master-Detail.",
+        "icon" : "task",
+        "iconCol": "data-streams",
+        "category" : "Declarative Design",
+        "filterCat": "dd"
+    },
+    {
         "front": "What does the acronym 'MAP' stand for?",
         "back" : "Message, Audience, Purpose",
         "icon" : "task",
